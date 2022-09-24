@@ -3,12 +3,13 @@
 
 // Example 1:
 // Here the "Start statement" gets printed first
-// After a delay of 1000ms, "Hello World! JavaScript is amazing" gets printed
-// At last "End Statement" gets printed on console
+// After a delay of 5000ms, "Hello World! JavaScript is amazing" will get printed
+// Since setTimeout() works in async manner, the statements present after the setTimeout() gets executed first i.e "End Statement" gets printed on console
+// At last "Hello World! JavaScript is amazing" gets printed on console
 console.log("Start statement");
 setTimeout(() => {
     console.log("Hello World! JavaScript is amazing");
-}, 1000);
+}, 5000);
 console.log("End statement");
 
 
