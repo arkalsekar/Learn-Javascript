@@ -14,10 +14,10 @@ console.log("End statement");
 
 
 // Example 2:
-// Here "Hello World!" gets printed on console for 10 times, after every 2000ms
+// Here "Hello World!" gets printed on console for 10 times, after every 1000ms
 for (let i = 0; i < 10; i++) {
     setTimeout(() => {
         console.log("Hello World!");
-    }, 2000);
+    }, 1000);
 }
 
