@@ -21,6 +21,7 @@ firstObj.func.call(secondObj, "Web Developement");
 
 
 // apply()
+// Here, we are using the call() method to invoke the func() present in Obj1 using Obj2 values
 // The only difference between call() and apply() is that, the paramters for the func() needs to be passed in form of array
 const Obj1 = {
     val1: "practice",
@@ -39,6 +40,7 @@ Obj1.func.apply(Obj2, ["Android Developemnt"]);
 
 
 // bind()
+// Here, we are using the call() method to invoke the func() present in object1 using object2 values
 // bind() returns a new function, which can be invoked later on
 const object1 = {
     val1: "apple",
