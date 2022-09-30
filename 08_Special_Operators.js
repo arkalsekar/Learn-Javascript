@@ -22,7 +22,8 @@ console.log(...arr)
 // If the object is undefined or null, it returns undefined instead of throwing an error.
 // The following code will return undefined
 let user = {
-  name : "foo"
+  "name" : "foo",
+  "lastName" : "bar"
 }
 const userAge = user?.age;
 console.log(userAge);
