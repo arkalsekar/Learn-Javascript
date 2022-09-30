@@ -1,6 +1,4 @@
-# Learn Javascript
-
-A Javascript Reference Repository, which was initially created for my refernce is now open. Any one can Learn and Add more Content to the Repository. Feel Free to use it, fork it and also contribute if you want.
+A Javascript reference repository which was initially created for my reference is now open for everyone. Any one can Learn and Add more Content to this repository. Feel Free to use it, fork it and also contribute if you want.
 
 ## Table of Content
 
@@ -17,7 +15,7 @@ Here is the List of all the Concepts which are been covered step by step in the 
  - [All About Loops](https://github.com/arkalsekar/Learn-Javascript/blob/main/10_Loops)
  - [All About Functions](https://github.com/arkalsekar/Learn-Javascript/blob/main/11_Functions.js)
  - [String Properties](https://github.com/arkalsekar/Learn-Javascript/blob/main/12_string_Properties.js)
- - [String Methods](https://github.com/arkalsekar/Learn-Javascript/blob/main/13_String)Methods.js)
+ - [String Methods](https://github.com/arkalsekar/Learn-Javascript/blob/main/13_String)
  - [Array Properties](https://github.com/arkalsekar/Learn-Javascript/blob/main/14_Array_Properties.js)
  - [Array Methods](https://github.com/arkalsekar/Learn-Javascript/blob/main/15_Array_Methods.js)
  - [Dates in Js](https://github.com/arkalsekar/Learn-Javascript/blob/main/16_Dates.js)
@@ -38,7 +36,7 @@ Here is the List of all the Concepts which are been covered step by step in the 
  
 ## Contributing
 
-Contributions are always welcome! Feel free to contribute to the Project and add more Valuable content and smoothen Javascript Learning process.
+Contributions are always welcome! Feel free to contribute to this Project and add more valuable content to smoothen Javascript Learning process.
 
 Please adhere to this project's `code of conduct`.
 
