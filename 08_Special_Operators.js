@@ -17,3 +17,12 @@ console.log("You ", age > 18 ? "can Drive " : "Cannot Drive")
 // Will print on numbers of the array
 let arr = [55, 3, 3, 34, 4, 4, 4, 4]
 console.log(...arr)
+
+// 5. Optional chaining (?.)
+// If the object is undefined or null, it returns undefined instead of throwing an error.
+// The following code will return undefined
+let user = {
+  name : "foo"
+}
+const userAge = user?.age;
+console.log(userAge);
