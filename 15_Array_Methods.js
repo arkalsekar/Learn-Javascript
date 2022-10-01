@@ -32,7 +32,7 @@ if ('Orange' in fruits) {
 }
 
 
-// .map()  
+// .map()  method
 // This method is used to traverse through all the elements present in array
 // It returns a new array
 const numList = [10, 5, 7, 54, 48, 68, 120];
