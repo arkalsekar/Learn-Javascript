@@ -1,8 +1,15 @@
-A Javascript reference repository which was initially created for my reference is now open for everyone. Any one can Learn and Add more Content to this repository. Feel Free to use it, fork it and also contribute if you want.
+<div align="center">
+     <img width=500 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
+</div><br>
 
-## Table of Content
 
-Here is the List of all the Concepts which are been covered step by step in the Repository
+A Javascript repository which is created for Javascript Enthusiasts.  Feel Free to contribute.
+
+## Table of Contents
+
+<details>
+ 
+List of all the Concepts which are covered :
 
 - [Console](https://github.com/arkalsekar/Learn-Javascript/blob/main/01_Console.js)
 - [Variables](https://github.com/arkalsekar/Learn-Javascript/blob/main/02_Variables.js)
@@ -34,11 +41,36 @@ Here is the List of all the Concepts which are been covered step by step in the 
 - [Hoisting in JS](https://github.com/arkalsekar/Learn-Javascript/blob/main/28_Hoisting.js)
 - [Strict Mode](https://github.com/arkalsekar/Learn-Javascript/blob/main/29_Strict_Mode.js)
 - [Classes](https://github.com/arkalsekar/Learn-Javascript/blob/main/30_Classes.js)
+</details>
 
-## Contributing
+<br>
 
-Contributions are always welcome! Feel free to contribute to this Project and add more valuable content to smoothen Javascript Learning process.
+## Repo Status
+![GitHub contributors](https://img.shields.io/github/contributors/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/arkalsekar/Learn-Javascript?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
+
+<br>
+
+<img src="https://starchart.cc/arkalsekar/Learn-Javascript.svg" />
+
+<br><br>
+
+- Contributions are always welcome! Feel free to contribute to this Project and add more valuable content to smoothen Javascript Learning process.
 
 Please adhere to this project's `code of conduct`.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+<br><br>
+## Our Contributors
+<a href="https://github.com/arkalsekar/Learn-Javascript/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=arkalsekar/Learn-Javascript" />
+</a>
+
+<br>
+
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
