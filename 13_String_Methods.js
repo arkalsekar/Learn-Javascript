@@ -12,7 +12,7 @@ console.log(my_name.concat(my_name, text))
 // Gives you the index of the required characters
 // console.log(text.indexOf('am'))
 
-// Searchs for the Index of required String
+// Searches for the Index of required String
 console.log(text.search('Abdul'))
 
 // Prints the Character at required Indexs
