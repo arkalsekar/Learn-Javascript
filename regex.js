@@ -52,3 +52,29 @@ function validatePhone(num) {
 let number = prompt('Enter a number XXX-XXX-XXXX');
 
 validatePhone(number);
+
+
+
+
+
+// program to validate the youtube url
+function validateYoutubeUrl(url) {
+
+    // regex pattern for youtube url
+    const re = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+
+    // check if the youtube url is valid
+    let result = re.match(url)
+    if (result) {
+        console.log('Thw url is valid')
+    } 
+    else {
+        let newUrl = prompt('Enter new youtube url');
+        validateYoutubeUrl(newUrl);
+    }
+}
+
+// take input
+let url = prompt('Enter a youtube url');
+
+validateYoutubeUrl(url)
