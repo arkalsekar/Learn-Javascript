@@ -1,5 +1,5 @@
 // Class is Template Object for creating JS Objects
-// It itself isin't an Object. But you can create using it
+// It itself isn't an Object. But you can create using it
 
 class Company {
     constructor(company_name, founder, founded_in) {

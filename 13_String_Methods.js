@@ -6,7 +6,7 @@ let text = "I am Abdul Rehman Kalsekar. This is JS Course."
 // Gives you the Character at the Positions
 console.log(my_name.charAt(4))
 
-// Concatinates two Strings
+// Concatenates two Strings
 console.log(my_name.concat(my_name, text))
 
 // Gives you the index of the required characters

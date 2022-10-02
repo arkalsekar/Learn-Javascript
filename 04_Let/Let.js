@@ -1,6 +1,6 @@
 // All About Let
 
-// let - It is a variable decalring type. It was introduced in ES6, Popularly knows as Javasript 2015. 
+// let - It is a variable declaring type. It was introduced in ES6, Popularly knows as Javascript 2015. 
 
 // It can be Initialised but not declared 
 let a;

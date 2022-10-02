@@ -47,7 +47,7 @@ setTimeout(() => {
 
 // Example 2:
 // Here, we are creating 6 divs and setting their textContent as their "Div <Div number>"
-// A callback hell is created where, if all the divs are present and their textContent values match with the values passed by user, then "Divs exist and texts have matched succesfully!" message is printed on console elsewise "Error occured!" message is printed on console
+// A callback hell is created where, if all the divs are present and their textContent values match with the values passed by user, then "Divs exist and texts have matched successfully!" message is printed on console otherwise "Error occurred!" message is printed on console
 
 const div1 = document.createElement("div");
 div1.textContent = "Div 1";
@@ -80,10 +80,10 @@ function callbackHellExample(element, value, matchCallback, notMatchCallback) {
 }
 
 const callbackMatch = () => {
-    console.log("Divs exist and texts have matched succesfully!");
+    console.log("Divs exist and texts have matched successfully!");
 }
 const callbackNotMatch = () => {
-    console.log("Error occured!");
+    console.log("Error occurred!");
 }
 
 callbackHellExample(div1, "Div 1",

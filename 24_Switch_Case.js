@@ -1,5 +1,5 @@
 // Using Switch Case in JS
-// You can create different cases based on different inupts
+// You can create different cases based on different inputs
 // Switch Statements are case Sensitive
 // let fruit = "Mango";
 // Above Snippet will not work as M is Capital

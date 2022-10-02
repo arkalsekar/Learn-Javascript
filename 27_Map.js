@@ -1,6 +1,6 @@
 /* 
-Maps are like Mapping Obejcts
-You can store data in it and retrive it easily
+Maps are like Mapping Objects
+You can store data in it and retrieve it easily
 Following are the Methods and Properties of Maps. 
 
 Methods are as Follows
@@ -30,7 +30,7 @@ console.log(my_map.get('name1'))
 my_map.delete('name2')
 console.log(my_map)
 
-// Returns all the map Enteries
+// Returns all the map Entries
 console.log(my_map.entries())
 
 // Clears the Complete Map

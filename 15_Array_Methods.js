@@ -7,13 +7,13 @@ console.log(fruits);
 var a = 'Mango';
 
 // Operations on Arrays 
-// Concatination
-var concated_fruits = fruits.concat(Names);
-console.log(concated_fruits);
+// Concatenation
+var concatenated_fruits = fruits.concat(Names);
+console.log(concatenated_fruits);
 
 // Reversing
-var sorted_frutits = fruits.reverse();
-console.log(sorted_frutits);
+var sorted_fruits = fruits.reverse();
+console.log(sorted_fruits);
 
 // joining
 var fruits_name = fruits.join(Names);
