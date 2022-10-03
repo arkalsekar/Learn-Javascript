@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="box">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+        <div class="wave -four"></div>
+        <div id="weathercon">
+             <i class="fas fa-sun" style="color: #eccc68"></i>
+        </div>
+        <div class="info">
+            <h2 class="location"><i class="fas fa-street-view" ></i>{%location%},{%country%}</h2>
+            <p id="date">SAT|Sept 20| 11:56AM</p>
+            <h1 class="temp">{%tempval%}</h1>
+            <h3 class="tempmin_max">Min {%tempmin%} C| Max {%tempmax%} C</h3>
+        </div>
+    </div>
+</body>
+<script>
+    const curDate=document.getElementById('date');
+let weathercon=document.getElementById('weathercon');
+
+const tempStatus= 'Clouds';
+
+const getCurrentDay=()=>{
+    let currentTime= new Date();
+    //console.log(d.getDay());
+    //console.log(d);
+    var weekday= new Array(7);
+    weekday[0]="Sunday";
+    weekday[1]="Monday";
+    weekday[2]="Tuesday";
+    weekday[3]="Wednesday";
+    weekday[4]="Thursday";
+    weekday[5]="Friday";
+    weekday[6]="Saturday";
+
+    console.log(weekday[currentTime.getDay()]);
+    let day = weekday[currentTime.getDay()];
+    return day;
+    
+};
+
+const getCurrentTime=()=>{
+    var months = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "June",
+        "July",
+        "Aug",
+        "Sept",
+        "Nov",
+        "Dec",
+    ];
+
+    var now =new Date();
+    var month= now.getMonth();
+    var date = now.getDate();
+
+    let hours=now.getHours();
+    let mins = now.getMinutes();
+    
+    let period="AM";
+
+    if(hours>11){
+        period="PM";
+        if(hours>12) hours-=12;
+    }
+    if(mins<10){
+        mins= "0"+mins;
+    }
+
+    return `${months[month]} ${date} | ${hours}:${mins} ${period}`
+
+    //console.log(month)
+    //console.log(months[month] + "/" + day);
+
+};
+
+curDate.innerHTML = getCurrentDay() + " | " + getCurrentTime();
+
+//getCurrentDay();
+</script>
+</html>
