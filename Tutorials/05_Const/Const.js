@@ -1,6 +1,6 @@
 // All About const
 
-// const - It is a variable decalring type. It was introduced in ES6, Popularly knows as Javasript 2015. 
+// const - It is a variable declaring type. It was introduced in ES6, Popularly knows as Javascript 2015. 
 
 // It should be Initialised and  declared at the same time
 const a = "Abdul Rehman";

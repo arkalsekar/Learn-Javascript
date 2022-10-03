@@ -29,7 +29,7 @@ function name_checker() {
         return "Both have the same type"
     }
     else {
-        return  "Both donot have the same type"
+        return  "Both do not have the same type"
     }
 }
 
