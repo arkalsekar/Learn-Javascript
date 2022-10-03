@@ -1,0 +1,16 @@
+{
+  "name": "npmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npmex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "validator": "^13.6.0"
+  }
+}
+ 

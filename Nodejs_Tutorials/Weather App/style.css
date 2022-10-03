@@ -1,0 +1,58 @@
+body{
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: url('./bg.jpg') ;*/
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+
+.box{
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin : 20px 20px;
+    height: 40rem;
+    width: 30rem;
+    flex-direction: column;
+    
+}
+
+.fa-sun{
+    position : relative;
+    margin : 20px 20px;
+    font-size : 200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+/* .wave{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: url(wave.png) ;
+    background-size: 150px 20px;
+
+
+
+
+
+} */
+
+.fa-street-view{
+    font-size: 40px;
+    margin : 10px 13px;
+}
+
+.info{
+    text-align: center;
+
+}
+
