@@ -1,12 +1,12 @@
 // Everything about Console
 // Console is like a print from Python and is very often used to debug JS code in the browser or in the terminal REPL.
 
-console.log("hello World")
-console.error("Hello Wrold ")
-console.warn("Hello Wrold ")
+console.log("hello World");
+console.error("Hello Wrold ");
+console.warn("Hello Wrold ");
 
 // Clears the Previous Consoles and Prints
-console.clear()
+console.clear();
 
 
 // Only Displays Alert Boxes
@@ -27,6 +27,6 @@ const users = [
   { name: 'Joe', last_name: 'Blink', age: 11},
   { name: 'Nick', last_name: 'Doe', age: 26},
   { name: 'Nina', last_name: 'Michael', age: 6}
-]
+];
 
-console.table(users)
+console.table(users);
