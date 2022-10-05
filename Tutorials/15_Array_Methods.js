@@ -6,7 +6,7 @@ console.log(fruits);
 
 var a = 'Mango';
 
-// Operations on Arrays 
+// Operations on Arrays
 // Concatenation
 var concatenated_fruits = fruits.concat(Names);
 console.log(concatenated_fruits);
@@ -44,7 +44,21 @@ const squareArray = numList.map((element) => {
 console.log(squareArray);
 
 
-// .filter() 
+// .forEach() method
+// This method traverses through all the elements in the arrat but the difference with the .map() method
+// is that, it will not return anything, it just executes a provided function once for each array element.
+const users = [
+  { name: 'Alex', last_name: 'Ventura', age: 19},
+  { name: 'Joe', last_name: 'Blink', age: 11},
+  { name: 'Nick', last_name: 'Doe', age: 26},
+  { name: 'Nina', last_name: 'Michael', age: 6}
+]
+users.forEach(function(element) {
+  console.log(element.name + ' ' + element.last_name + ' is ' + element.age + ' years old.');
+});
+
+
+// .filter() method
 // This method is used to filter the array based on certain criteria
 // It returns a new array
 const numListTwo = [100, 50, 87, 54, 48, 180, 12, 9, 23];
@@ -56,7 +70,7 @@ const findArray = numListTwo.filter((element) => {
 console.log(findArray);
 
 
-// .reduce()
+// .reduce() method
 // This method returns a single value
 // Initially, accumulator stores the first value and currentVal stores the current value.Then the result of  accumulator and currentVal gets stored into accumulator, and the next element of the numListThree gets stored into currentVal
 const numListThree = [1, 6, 10, 8, 9, 27];
