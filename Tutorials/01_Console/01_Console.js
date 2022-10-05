@@ -15,6 +15,7 @@ console.clear();
 // Displays and Alert as well as an Input Field
 console.prompt("Please Enter your Age")
 
+
 // The .table() method is a very useful one to visualize arrays of data in a beauty way.
 // - It will show every object property in a column header
 // - Every column header has the sort functionality when clicking on it
@@ -30,3 +31,28 @@ const users = [
 ];
 
 console.table(users);
+
+
+/* Measuring how much time does an algorith takes to execute
+ * In the browser console we have these two methods really handy to measure execution time:
+ * console.time(_label_);
+ * console.timeEnd(_label_);
+ */
+
+// We should give the timer a label identifier to be able to stop it later.
+console.time('for-loop');
+for (let i = 0; i < 1000000; i++) {
+  // some code
+}
+console.timeEnd('for-loop');
+
+let i = 0;
+console.time('while-loop');
+while (i < 1000000) {
+  i++
+}
+console.timeEnd('while-loop');
+
+// Expected output:
+// for-loop: 1.703125 ms
+// while-loop: 1.0322265625 ms
