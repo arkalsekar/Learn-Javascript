@@ -11,13 +11,13 @@ A Javascript repository which is created for Javascript Enthusiasts.  Feel Free 
  
 List of all the Concepts which are covered :
 
-- [Console](Tutorials\01_Console)
-- [Variables](Tutorials\02_Variables)
-- [About var keyword](Tutorials\03_Var)
-- [About Let keyword](Tutorials\04_Let)
-- [About const Keyword](Tutorials\05_Const)
-- [Data Types in js](Tutorials\06_Datatypes)
-- [Operators](Tutorials\07_Operators)
+- [Console](Tutorials\01_Console\01_Console.js)
+- [Variables](Tutorials\02_Variables\Variables.js)
+- [About var keyword](Tutorials\03_Var\Var.js)
+- [About Let keyword](Tutorials\04_Let\Let.js)
+- [About const Keyword](Tutorials\05_Const\Const.js)
+- [Data Types in js](Tutorials\06_Datatypes\Data_Types.js)
+- [Operators](Tutorials\07_Operators\Operators.js)
 - [Special Operators like Ternary and Spread Operator](Tutorials\08_Special_Operators.js)
 - [All About Conditional Statements](Tutorials\09_Conditional.js)
 - [All About Loops](Tutorials\10_Loops.js)
@@ -36,10 +36,10 @@ List of all the Concepts which are covered :
 - [Destructuring in JS](Tutorials\23_Destructuring.js)
 - [Switch Cases](Tutorials\24_Switch_Case.js)
 - [All About Iterable Data Types](Tutorials\25_Iterables.js)
-- [Error Handling](Tutorials\26_Error_Handling)
+- [Error Handling](Tutorials\26_Error_Handling\Error_Handling.js)
 - [Map Datastructure in JS](Tutorials\26_Map.js)
-- [Hoisting in JS](Tutorials\28_Hoisting)
-- [Strict Mode](https://github.com/arkalsekar/Learn-Javascript/blob/main/29_Strict_Mode.js)
+- [Hoisting in JS](Tutorials\28_Hoisting\Hoisting.js)
+- [Strict Mode](Tutorials\27_Strict_Mode.js)
 - [Classes](Tutorials\28_Classes.js)
 </details>
 
