@@ -2,7 +2,7 @@
      <img width=500 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
 </div><br>
 
-A repository which is created for Javascript Enthusiasts. Feel free to contribute.
+A repository that is created for Javascript enthusiasts. Feel free to contribute.
 
 ## Table of Contents
 
