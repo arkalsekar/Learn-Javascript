@@ -1,15 +1,22 @@
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+![GitHub contributors](https://img.shields.io/github/contributors/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/arkalsekar/Learn-Javascript?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
+
+# Learn-Javascript
+
 <div align="center">
-     <img width=500 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
-</div><br>
+   <b>A Javascript repository which is created for Javascript Enthusiasts.</b>
+   <p>Contribute to this project to add more valuable content for a smooth Javascript learning process.</p>
 
+  <img width=400 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
 
-A Javascript repository which is created for Javascript Enthusiasts.  Feel Free to contribute.
+  Show some ❤️ by starring this awesome repository!
+</div>
 
-## Table of Contents
-
-<details>
- 
-List of all the Concepts which are covered :
+## Repository content
 
 - [Console](Tutorials\01_Console\01_Console.js)
 - [Variables](Tutorials\02_Variables\Variables.js)
@@ -43,34 +50,13 @@ List of all the Concepts which are covered :
 - [Classes](Tutorials\28_Classes.js)
 </details>
 
-<br>
+## Contributors
 
-## Repo Status
-![GitHub contributors](https://img.shields.io/github/contributors/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
-![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=brightgreen)
-![GitHub PR Open](https://img.shields.io/github/issues-pr/arkalsekar/Learn-Javascript?style=for-the-badge&color=aqua)
-![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/arkalsekar/Learn-Javascript?style=for-the-badge&color=blue)
-
-<br>
-
-<img src="https://starchart.cc/arkalsekar/Learn-Javascript.svg" />
-
-<br><br>
-
-- Contributions are always welcome! Feel free to contribute to this Project and add more valuable content to smoothen Javascript Learning process.
-
-Please adhere to this project's `code of conduct`.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-<br><br>
-## Our Contributors
 <a href="https://github.com/arkalsekar/Learn-Javascript/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=arkalsekar/Learn-Javascript" />
 </a>
 
-<br>
+## Repository stars over time
 
-<div align="center">
-Show some ❤️ by starring this awesome repository!
-</div>
+<img src="https://starchart.cc/arkalsekar/Learn-Javascript.svg" />
+
